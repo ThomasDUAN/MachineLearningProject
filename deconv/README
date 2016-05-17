@@ -1,0 +1,7 @@
+The original version of Caffe must be first extended, please follow the building instruction on https://github.com/mylxiaoyi/caffe-deconvnet.
+
+deconv.py                                      -> contains main program
+deconv_finetuned_places205CNN_deploy.prototxt  -> deploy file of the finetuned Places-CNN for feature visualization
+invdeploy.prototxt                             -> deploy file of deconvnet
+places205CNN_det_finetune_iter_3000.caffemodel -> weights file of the finetuned Places-CNN after 3000 iterations (can be found in Google drive link)
+

@@ -1,0 +1,9 @@
+finetune.py                            -> contains the main program for fine-tuning the Place-CNN
+places205CNN_finetune_solver.prototxt  -> solver file of fine-tuning
+places205CNN_finetuning.prototxt       -> deploy file of Place-CNN for fine-tuning
+train.txt                              -> an example of training data file for fine-tuning
+val.txt                                -> an example of test data file for fine-tuning
+
+test.py                                -> contains the main program for testing the fine-tuned Place-CNN
+finetuned_places205CNN_deploy.prototxt -> deploy file of fine-tuned Place-CNN
+places205CNN_det_finetune_iter_3000.caffemodel -> weights file of the finetuned Places-CNN after 3000 iterations (can be found in Google drive link)

@@ -1,0 +1,9 @@
+Due to some modifications of the Python interface in the latest Caffe version, in order to run the code in CNN+SVM.py, one place in caffe_root/python/caffe/io.py must be adapted.
+Detailed information can be found in CNN+SVM.py. Reference: http://stackoverflow.com/questions/28692209/using-gpu-despite-setting-cpu-only-yielding-unexpected-keyword-argument
+
+io.py        -> adapted Caffe io.py file
+CNN+SVM.py   -> contains the main program
+normalize.py -> normalizes the feature vectors in a feature file
+accu.py      -> calculates the prediction accuracy for both roadworks(or crosswalks) and non-roadworks(or non-crosswalks) images
+find.py      -> finds the wrongly classified images
+
